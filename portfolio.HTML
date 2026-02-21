@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.CSS" />
+  </head>
+  <body>
+    <div class="wrapper">
+
+
+    <header>
+      <nav class="navbar">
+        <section class="logo">
+          <img src="IMG/logo transparent.png" alt="Logga för hemsida" />
+        </section>
+
+        <ul class="nav-links">
+          <li><a href="index.HTML">Hem</a></li>
+          <li><a href="presentation.HTML">Om mig</a></li>
+          <li><a href="portfolio.HTML" class="active">Portfolio</a></li>
+          <li><a href="cv.HTML">CV</a></li>
+          <li><a href="contact.HTML">Kontaktuppgifter</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- main -->
+    <main>
+      <section class="title">
+          <h2 class="mainText">Mina senaste</h2>
+          <h1 id="primaryText">Projekt</h1>
+      </section>
+      <section class="projects-container">
+        <ul class="rowOne">
+        <li class="project-card">
+      <h2>Bibliotek</h2>
+        <section class="btn-section">
+        <a href="https://github.com/CajsaMartensson/Bibloteket" target="_blank">GitHub</a>
+        <div class="open">
+          <a
+          href="#modalOne"
+          target="_self">Mer info!</a>
+        </div>
+        </section>
+    </li>
+<li class="project-card">
+      <h2>BankApp</h2>
+        <section class="btn-section">
+        <a href="https://github.com/AlbertJyllhed/BankApp" target="_blank">GitHub</a>
+        <div class="open">
+          <a
+          href="#modalTwo"
+          target="_self">Mer info!</a>
+        </div>
+        </section>
+    </li>
+    <li class="project-card">
+      <h2>Skoldatabas</h2>
+      <section class="btn-section">
+        <a href="https://github.com/CajsaMartensson/Labb3School_Cajsa-DATABASE" target="_blank">GitHub</a>
+        <div class="open">
+          <a
+          href="#modalThree"
+          target="_self">Mer info!</a>
+        </div>
+      </section>
+    </li>
+  </ul>
+  <ul class="rowTwo">
+    <li class="project-card">
+        <h2>Spotify LogIn</h2>
+        <section class="btn-section">
+          <a href="" target="_blank">GitHub</a>
+          <div>
+            <a
+            href="#modalFour"
+            target="_self">Mer info!</a>
+        </div>
+      </section>
+    </li>
+    </ul>
+  </section>
+  <section id="modalOne" class="modal">
+          <section class="modal-window">
+            <div class="close-container">
+              <a class="modal-close" href="#">X</a>
+            </div>
+            <div class="text-container">
+              <h2>Bibliotek</h2>
+              <p>Mitt första C# projekt. Man kan låna, lämna tillbaka och se antal böcker i biblioteket.</p>
+            </div>
+          </section>
+        </section>
+        <section id="modalTwo" class="modal">
+          <section class="modal-window">
+            <div class="close-container">
+              <a class="modal-close" href="#">X</a>
+            </div>
+            <div class="text-container">
+              <h2>BankApp</h2>
+              <p>Mitt första grupparbete. Vi använde OOP för att skapa vår bank "Liskov League". Det gick att skicka och ta ut pengar, samt ta lån.</p>
+            </div>
+          </section>
+        </section>
+        <section id="modalThree" class="modal">
+          <section class="modal-window">
+            <div class="close-container">
+              <a class="modal-close" href="#">X</a>
+            </div>
+            <div class="text-container">
+              <h2>Skoldatabas</h2>
+              <p>Mitt första databasprojekt som involvera både EF och ADO.NET. Man kan hämta info om elever, lärare och genomföra olika administrativa uppgifter.</p>
+            </div>
+          </section>
+        </section>
+        <section id="modalFour" class="modal">
+          <section class="modal-window">
+            <div class="close-container">
+              <a class="modal-close" href="#">X</a>
+            </div>
+            <div class="text-container">
+              <h2>Spotify LogIn</h2>
+              <p>Ett projekt jag suttit på egenhand med HTML och CSS för att efterlikna Spotifys login-sida.</p>
+            </div>
+          </section>
+        </section>
+</main>
+
+    <footer>
+        <article class="footer-logos">
+            <p>Följ gärna!</p>
+            <div class="logos">
+                <a href="https://github.com/CajsaMartensson" target="_blank">
+                    <img src="IMG/GitHub Logo.png" alt="Bildlänk till GitHub"
+                    /></a>
+                    <a
+                    href="https://www.linkedin.com/in/cajsa-m%C3%A5rtensson-63866422b/"
+                    target="_blank"
+                    ><img src="IMG/linked in logo.svg" alt="Bildlänk till LinkedIn"
+                    /></a>
+                </div>
+            </article>
+            <p>&copy; 2026 Cajsa Varberg</p>
+    </footer>
+    </div>
+  </body>
+</html>
