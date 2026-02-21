@@ -8,7 +8,6 @@
 
 body {
   background-color: #ffd7e3;
-  /* TEST NEDAN */
   min-height: 100vh;
 }
 
@@ -92,8 +91,6 @@ h1 {
 /* ----HOME---- */
 
 main {
-  /* padding-top: 4vh;
-  height: 96vh; */
   box-sizing: border-box;
   flex: 1;
 }
@@ -326,6 +323,21 @@ footer a img {
 }
 .rowTwo{
   justify-content: flex-start;
+}
+
+.card-header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.card-header img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  margin-right: 12px;
 }
 
 .project-card{
